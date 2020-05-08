@@ -22,12 +22,18 @@
 .flex {
     display: flex;
     justify-content: space-between;
-    margin-left: 2em;
+    margin-right: 2em;
+    @media screen and (max-width:608px) { 
+        flex-direction: column;
+    }
 }
 .information {
     
         width: 33%;
         &__header {
             font-size: 2em;
+        }
+         @media screen and (max-width:608px) { 
+            width: 100%;
         }
 }

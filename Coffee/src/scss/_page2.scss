@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+}
+.page2 {
+    margin: 0 5em;
+}
+h2 {
+    padding: 0 5em;
+}
+.flex {
+display: flex;
+flex-wrap: wrap;
+&__square {
+    width: 48%;
+    padding: 0 4em;
+
+}
+}
+.coffee {
+    display: flex;
+    &__thing {
+        flex-grow: 1;
+
+    }
+    &__price {
+        align-items: flex-end;
+ 
+
+    }
+}
+img {
+    padding: 0 5em;
+    width: 100%;
+}
+

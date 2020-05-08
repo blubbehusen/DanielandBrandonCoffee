@@ -1,0 +1,39 @@
+.footer {
+    background-color: $footer-bg-color;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding: 3em;
+
+    &__nav {
+        display: flex;
+        padding-top: 2em;
+        width: 50vw;
+        justify-content: space-between;
+
+        & a {
+
+        }
+    }
+
+    &__hashtag {
+        padding-top: 4em;
+
+    }
+
+    &__social {
+        
+
+    }
+}
+
+footer a {
+    color: $footer-link-color;
+
+    &:hover {
+        color: white;
+        text-decoration: none;
+    }
+
+}

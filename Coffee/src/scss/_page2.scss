@@ -3,20 +3,24 @@
 }
 .page2 {
     margin: 0 5em;
-}
-h2 {
+    h2 {
     padding: 0 5em;
+    }
+    &__image {
+        padding: 0 5em;
+        width: 100%;
+    }
 }
 .flex {
 display: flex;
 flex-wrap: wrap;
 &__square {
-    width: 48%;
+    width: 43%;
     padding: 0 4em;
 
 }
 }
-.coffee {
+.coffeeitem {
     display: flex;
     &__thing {
         flex-grow: 1;
@@ -28,8 +32,5 @@ flex-wrap: wrap;
 
     }
 }
-img {
-    padding: 0 5em;
-    width: 100%;
-}
+
 

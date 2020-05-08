@@ -1,11 +1,12 @@
 
 .page1{
     margin: 0 10vw;
-    &__h1 {
-        background-color: red;
-    }
+    transform: translateY(3em);
     img {
         width: 100%;
+    }
+    & .map {
+        text-align: center;
     }
 
 }

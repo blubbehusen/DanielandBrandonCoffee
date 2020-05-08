@@ -1,0 +1,23 @@
+
+.page1{
+    margin: 0 10vw;
+    &__h1 {
+        background-color: red;
+    }
+    img {
+        width: 100%;
+    }
+
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 4em;
+}
+.information {
+    
+        width: 33%;
+        &__header {
+            font-size: 2em;
+        }
+}

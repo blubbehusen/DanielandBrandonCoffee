@@ -2,15 +2,15 @@
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
-html, body {
+
+body {
     margin: 0;
 }
 
-
-@import "page1";
-@import "page2";
 @import 'variables'; 
 @import 'header';
 @import 'footer';
+@import "page1";
+@import "page2";
 @import 'page3';
 

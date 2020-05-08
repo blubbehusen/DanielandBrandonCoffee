@@ -1,0 +1,28 @@
+.header {
+    background-color: $header-bg-color;
+    display: flex;
+    padding: 1em 3em;
+
+    &__img {
+
+    }  
+
+    &__nav {
+        display: flex;
+        flex-grow: 1;
+        align-items: center;
+        justify-content: flex-end;
+        
+
+
+        & a {
+            text-decoration: none;
+            padding-left: 1em;
+            color: rgb(148, 147, 147);
+
+            &:hover {
+                color: black;
+            }
+        }
+    }
+}
